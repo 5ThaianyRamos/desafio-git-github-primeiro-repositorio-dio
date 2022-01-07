@@ -1,0 +1,58 @@
+Anotações Git e Github
+
+Git é um software de versionamento de código
+
+Github é uma das plataformas que hospedam esses códigos e arquivos do Git.
+
+
+Comandos Git Windows
+
+mudar de pastas - cd
+listar as pastas - dir
+criar pastas/arquivos - mkdir
+deletar pastas/arquivos - del/rmdir
+limpar a tela - cls 
+auto completar - pressionar tecla TAB
+clonando repositorio - git clone
+verificar status - git status
+
+add todos os arquivos no controle de versão local - git add .    ou   git add -A
+
+
+git commit -m "Comentario coerente do que está sendo feito"
+enviando todos os commits para a nuvem - git push origin main
+
+
+Git Sha1
+
+sha1 = é um tipo de criptogafia 
+
+No gitbash usa o codigo openssl sha1 texto.txt (o texto.txt é um arquivo já salvo no desktop)
+
+O texto abaixo:
+
+Mussum Ipsum, cacilds vidis litro abertis. 
+Não sou faixa preta cumpadi, sou preto inteiris, inteiris. 
+Quem num gosta di mim que vai caçá sua turmis!
+
+Ele cria a encriptação 
+
+Ex:
+
+9ce630f308a66b8fa1185e52a4766b469eb51bc4
+
+
+mudando uma vírgula do texto e botanto um ponto
+
+Mussum Ipsum. cacilds vidis litro abertis. 
+Não sou faixa preta cumpadi, sou preto inteiris, inteiris. 
+Quem num gosta di mim que vai caçá sua turmis!
+
+Fica 
+
+c932a10e47f84f4880d6bd10550a0697d408519c
+
+
+Alterando pra virgula novamente ele gera a criptogafia inicial
+
+9ce630f308a66b8fa1185e52a4766b469eb51bc4
